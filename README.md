@@ -43,20 +43,20 @@ This project is intended as a prototype and proof of concept, rather than a prod
 This project has a backend (FastAPI) and a frontend (React). Both must be running.
 
 ### Backend:
-Open a terminal and go to the backend folder: cd backend
+Open a terminal and go to the backend folder: `cd backend`
 
-Install the required Python packages: pip install fastapi uvicorn pypdf scikit-learn
+Install the required Python packages: `pip install fastapi uvicorn pypdf scikit-learn`
 
-Start the backend server: uvicorn app:app --reload
+Start the backend server: `uvicorn app:app --reload`
 
 The backend runs at http://127.0.0.1:8000
 
 ### Frontend:
 
-Open a second terminal and go to the frontend folder: cd frontend
+Open a second terminal and go to the frontend folder: `cd frontend`
 
-Install dependencies: npm install
+Install dependencies: `npm install`
 
-Start the frontend: npm run dev
+Start the frontend: `npm run dev`
 
 Open the frontend in your browser at http://localhost:5173
